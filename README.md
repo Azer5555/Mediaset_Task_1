@@ -1,31 +1,35 @@
-# vue-project
+# Верстка сайта
 
-Это проект на vue js, в котором можно посмотреть прогноз погоды в любом городе. Просто необходимо в поиск ввести нужный вам город, и сразу же будет доступна информация о погоде. 
+В этом проекте была произведена верстка сайта по макету, а также был предусмотрен адаптив сайта.
 
-## Recommended IDE Setup
+## Загрузка Node.js
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Чтобы начать работать с проектом необходимо скачать [Node.js](https://nodejs.org/en).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Загрузка проекта
+## Инициализация проекта
 
 ```sh
-npm install
+npm init -y
 ```
 
-### Compile and Hot-Reload for Development
+### Установка пакетов
 
 ```sh
-npm run dev
+npm i -D gulp gulp-sass
 ```
 
-### Compile and Minify for Production
+```sh
+npm install -g gulp
+```
 
 ```sh
-npm run build
+npm install sass
+```
+
+### Запуск проекта
+
+```sh
+gulp
 ```
 
 ## Лицензия
